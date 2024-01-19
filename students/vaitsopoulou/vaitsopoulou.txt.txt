@@ -1,0 +1,47 @@
+
+Meet the developers: Anna
+
+Hello! My name is Anna (official papers will tell you may name is Vasiliki Anna which tends to confuse people but it is simple really: this was a move to please both my grandmothers as I am an only child and therefore like some fabled protagonist on a classical hero journey I am tasked to carry the entire family legacy on my back). I am a June born baby and freshly out of my quarter life crisis, therefore at the age where you stop asking women how old they are, and post-said crisis clarity is the exact reason why I am here.
+
+I have been the stereotypical definition of a nerd for as far back as I can remember and as a proud introvert I have always had a very close relationship with technology from my first PSP when I was 5 to spending days upon days on stack overflow as the years started going by and the Internet slowly became more and more hostile to use.(Am I being dramatic? Perhaps, but I am old enough to remember an age when youtube would not bombard you with 50 hour-long ads per video, back when you didn't need to dive deep for scripts to access your favorite novels online and during the golden age of Flash Player - rip you will always be remembered).
+
+I knew I was going into STEM very early on, but here's the catch: I was told all the nerds go to med school and I was a good student so I thought hey, this might be the place for me! Unfortunately what they don't tell you is med school has the lame, boring kind of nerds and it is depression central over there so I am trying this again by coming here where the actual cool nerds are. So far I seem to fit right in! My dream is to one day work in a sector adjacent to neuro coding and approach the mapping of the human brain from a technological perspective with the view of research application in order to improve people's daily lives. I am highly inspired in this by an older friend of mine who worked on the development of the Nymi Band which uses Biometric data to connect people to multiple applications, systems, and networks. As fun as it is to imagine a future where robots are our esteemed overlords, I am not jaded enough yet not to believe in man and machine walking hand in hand and I want to add my own little paint stroke to that(Also I want to flex on my ex uni classmates).
+
+
+HOBBIES
+
+Too many and too little time for them! I love fantasy and science fiction the most and I am capable of immersing myself in elaborate intricate worlds with their own multi-tome lore for weeks if not months (ask my family who have had to endure me talking their ears off about silmarillion events and ancient westeros facts from a world of ice and fire companion encyclopedias for years). I manifest this passion of mine by reading books (of course), worldbuilding a little on my own in sites such as https://www.campfirewriting.com/, and naturally I adore triple A open world games. I have explored every single blade of grass in series such as red dead redemption 2 the witcher 3 ac origins and odyssey to make up for the fact that I rarely go outside to touch on the real world grass. I also love music in general - I went to music school for ten years, can play the piano and the guitar and I like to imagine that in an alternate life I am a music composer because music composition simply fascinates me. Just one example of this music piece https://www.youtube.com/watch?v=g9elr88I8oM which uses fibonacci sequence for its tempo shows why I find music so beautiful and enchanting and also why math haters should NOT interact with me: math is everywhere around us in ways which never cease to amaze me and I wish I had more time to explore because I really feel like I am missing out. Other passions of mine? Astronomy, watching physics and paradox videos, video editing in adobe effects/sony vegas pro, formula 1 and especially aerodynamic design and oh! Learning languages of course. I am fluent in greek english german, currently learning chinese and I hope I can add several programming languages to that as well to inflate the number and make it sound even more impressive. But Anna when do you find time for all of this? I don't sleep, like, at all. Yeah I know it is a problem.
+
+ABOUT THIS PROJECT
+
+The main observation I have to make on this project is that despite the fact that it is the one assignment I have probably spent the most time on, not just in this college so far, or this year, but in my entire academic career, and we are speaking in terms of hours upon hours at a time researching, trying to learn new things and experimenting/implementing them, it is still probably the only assignment that has never for a moment felt like a chore. A huge part of that is due to my excellent team and two partners in crime, the cooperation with whom has been harmonious to a near flawless extent. From ribbing off on each other's creativity and sense of humor which is necessary for the concept of this site, as we didn't want to simply create a sterile informative environment but something more fun, to their sense of responsibility and work ethic I would ever be so lucky to work with colleagues like these further ahead in my career. The basic css templates were a collaborative effort of hours of fun productive teamwork and I genuinely dont think we could have achieved such an effect if we had simply each done our parts in isolation and then haphazardly stitched it together.
+
+When it comes to my personal contribution, something I love in websites is motion and interactivity, so i personally researched and implemented everything regarding the submenus in the navbar (I am especially fond of the transition property with hover - I have used it on elements A Lot and that includes all the posters and images slightly popping out when the user moves the mouse over them). I was also in charge of the pop-up window effect when you click on the main movie poster and the slideshow that shows up on said popup window. I also got heavily inspired by the carousel which was showcased with bootsrap in the final i2wt lab and was determined to find a way to implement it without a framework but with pure css and js code which is how the carousel in the genre pages as well as the critics' reviews in the individual movie pages came about! Lastly, I was in charge of editing all images that were necessary such as the sidebar images and some erroneously generated ai posters as I am adept at using photoshop and I also fixed some details such as the zoom cursor above the main poster and the favicon because it is my motto that attention to detail makes perfection.
+
+
+When it comes to resources
+
+
+Sources for working on this project include:
+CSS-tricks guide to flexbox for unlocking the beautiful convenience that is Flexbox
+This page that provided better understanding of <div> positioning when it was needed.
+Obviously, W3 Schools. The Wikipedia of developing.
+The amazing and helpful community over at Stack Overflow.
+Some help for designing the comment box system.
+Color palettes for web designing (no.15 was used for my student page).
+Google fonts, for the Ubuntu font (best font ever).
+Last but not least, our creative assistants and future overlords Dall-E image creator (via Bing) and ChatGPT 3.5.
+< Go to Irida's page
+Go back to HaHaHeaven
+Go to Anna's page >
+Instagram QR
+>     Find me on Instagram
+Personal webpage of Dimitris Papangelis
+Computer Science (Stage 1), I2WT 2023-24
+CITY College, University of York Europe Campus
+You may contact me at:
+Email address: dpapangelis@york.citycollege.eu
+or my social media.
+
+
+credit the vector in this image Image by <a href="https://www.freepik.com/free-vector/hand-drawn-collage-design_33812597.htm">Freepik</a>

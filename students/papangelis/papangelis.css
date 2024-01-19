@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+body {
+    background-color: #EDC7B7;
+    margin: 0;
+    padding: 0;
+    font-family: ubuntu, sans-serif;
+}
+
+header {
+    background-color: #123C69;
+    color: #AC3B61;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header button {
+    background-color: #123C69;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #AC3B61;
+    font-size: 1em;
+    border-color: #AC3B61;
+}
+
+header button:hover {
+    color: #FE9B1E;
+    border-color: #FE9B1E;
+}
+
+
+#banner {
+    font-size: 3em;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+
+.picture {
+    flex: 1;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: flex-end;
+    
+    
+}
+
+#reversePic {
+    justify-content: flex-start;
+    padding-top: 10px;
+    
+}
+
+figcaption {
+    font-size: 0.7em;
+    max-width: 250px;
+    padding-top: 10px;
+}
+
+.picture img {
+    width: auto;
+    max-width: 250px;
+    height: auto;
+    border-radius: 40px;
+    
+}
+
+#bowtie {
+    align-self: center;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    
+}
+
+#doggos {
+   align-self: center; 
+   border-top-left-radius: 0px;
+   border-bottom-right-radius: 0px;    
+}
+
+#covidPic {
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.text {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    justify-self: center;
+    border-radius: 25px;
+}
+
+.textBlock {
+    max-width: 600px;
+}
+
+#quote {
+    max-width: 300px;
+    padding-top: 50px;
+    color: #AC3B61;
+}
+
+.hobbies {
+    flex-direction: row-reverse;
+}
+
+#reverseText {
+    padding-top: 0px;
+}
+
+
+section h2 {
+    font-size: 2em;
+}
+
+#credits {
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 0px;
+    padding-bottom: 50px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+#navBasic {
+    font-size: 1.2em;
+    margin-bottom: 25px;
+    padding-bottom: 30px;
+    margin-top: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+#navBasic button {
+    background-color: #EDC7B7;
+    border-color: #123C69;
+    color: #123C69;
+}
+
+#navBasic button:hover {
+    background-color: #123C69;
+    border-color: #FE9B1E;
+    color: #FE9B1E;
+}
+
+button {
+    border-radius: 10px;
+    font-size: 0.9em;
+    
+}
+
+footer {
+    display: flex;
+    background-color: #123C69;
+    color: #AC3B61;
+    justify-content: center;
+}
+
+#instalink:hover {
+    color: #FE9B1E;
+}
+
+#instaqr {
+    max-width: 150px;
+}
+

@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800&family=Roboto+Slab:wght@300;400;500;600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+
+
+body {    
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 50px 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 5;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: rgb(240, 77, 112);
+    padding: 10px 50px;
+    border-radius: 20px;
+    margin: 0 20px;
+    font-weight: 600;
+}
+
+.navigation a:hover,
+.navigation a.active {
+    background: rgb(240, 77, 112);
+    color: rgb(255, 255, 255);
+}
+
+.vector {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#text {
+    position: absolute;
+    font-size: 500%;
+    color: rgb(255, 255, 255);
+    text-shadow:  3px 3px 2px rgb(0, 0, 0), -3px 3px 2px rgb(0, 0, 0), -3px -3px 0 rgb(0, 0, 0), 3px -3px 0 rgb(0, 0, 0);
+}
+
+.vector img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+
+.anna-info {
+    position: relative;
+    background:rgb(236, 114, 140);
+    padding: 120px;
+	display: flex;
+	flex-direction: column;
+}
+
+.anna-info h2 {
+    font-size: 3em;
+    color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+}
+
+.anna-info p {
+    font-size: 1.4em;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+	text-align: justify;
+}
+
+.anna-general-info-first {
+	display: flex;
+	flex-direction: row;	
+}
+
+.pirate-photo {
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	flex-grow: 4;
+	padding-right: 100px;
+}
+
+.subtitle {
+	padding-top: 10px;
+	font-size: 1em;
+	font-weight: 700;
+	color: rgb(255, 255, 255);
+}
+
+.pirate-photo img {
+	max-width: 500px;
+    height: auto;
+    border-radius: 30px;	
+}
+
+.general-text {
+	flex-grow: 1;
+}
+
+.anna-general-info-second {
+	margin-top: 80px;
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.kid-photo {
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	flex-grow: 4;
+	padding-left: 100px;
+}
+
+.kid-photo img {
+	max-width: 500px;
+    height: auto;
+    border-radius: 30px;	
+}
+
+.general-text-2 {
+	flex-grow: 1;
+}
+
+.anna-hobbies {
+	margin-top: 100px;
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+	
+}  
+    
+
+.hobbies-slider {
+    position: relative;
+    margin-top: 100px;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.slitem{
+    position: absolute;
+    width: 250px;
+    height: 400px;
+    text-align: justify;
+	color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+	border-style: groove;
+    border-radius: 10px;
+    padding: 20px;    
+    left: calc(50% - 110px);
+    top: 0;	
+}
+.slitem p{
+    color: rgb(0, 0, 0);
+    font-size:0.98em;
+    text-align: justify;
+}
+
+.slitem h1 {
+    text-align: center;
+}
+
+#next{
+    position: absolute;
+    right: 50px;
+    top: 40%;
+}
+#prev{
+    position: absolute;
+    left: 50px;
+    top: 40%;
+}
+#prev, #next{
+    color: rgb(255, 255, 255);        
+    font-size: 3em;
+    font-family: monospace;
+    font-weight: bold;
+    opacity: 0.5;
+    transition: opacity 0.5s;
+}
+
+#prev:hover,
+#next:hover{
+    opacity: 1;
+}
+
+.anna-project {
+	margin-top: 100px;
+}
+
+.anna-resources {
+	margin-top: 100px;
+}
+
+.anna-resources ul {
+	font-size: 1.1em;
+    color: rgb(255, 255, 255);
+    font-weight: 100;	
+}
+
+.nav-buttons {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 100px;    
+}
+
+.nav-buttons a{
+    text-decoration: none;
+}
+
+.team-button {
+	align-items: center;
+	background-color: rgb(254, 228, 224);
+	border: 3px solid rgb(17, 17, 17);
+	border-radius: 8px;	
+	color: rgb(17, 17, 17);
+	cursor: pointer;
+	display: flex;	
+	font-size: 1.2em;
+	height: 48px;
+	justify-content: center;	
+	max-width: 100%;
+	padding: 0 30px;	
+	text-align: center;	
+	transition: transform .2s ease-out;	  
+
+
+}
+
+
+.team-button:hover {
+	color: rgb(254, 228, 224);
+	background-color: rgb(17, 17, 17);
+} 
+
+.footer-anna {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	text-align: left;
+	align-items: baseline;
+	background-color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+	border-top: 4px rgb(147, 32, 57) groove;
+}
+
+.qr-code, .contact-info, .email {
+	padding:20px 50px;
+}
+
+.qr-code img{
+	max-width: 150px;
+}
+
+

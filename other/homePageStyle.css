@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+    background-color: black;
+    font-family: ubuntu, sans-serif;
+}
+
+a,button{
+    cursor: pointer;
+}
+
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  border-bottom: 3px;
+  border-bottom-style: ridge;
+  border-bottom-color: rgb(228, 207, 14);
+}
+
+
+.banner {
+  display: flex;
+  align-items: center;
+}
+
+
+#site-logo {
+  width: 150px;
+  height: auto;
+  margin: 10px, 0px;
+  
+}
+
+
+#site-name-image {
+  width: 700px;
+  height: auto;
+}
+
+
+nav > ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+nav > ul > li {
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(228, 207, 14);
+  padding: 22px 0;
+  display: inline-block;
+  transition: all ease 0.3s;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: rgb(185,14,228);
+}
+
+
+nav ul .submenu{
+    position: absolute;
+    width: 150px;
+    background-color: rgb(0,0,0);
+    box-shadow: 0 10px 25px rgb(228, 207, 14) ;
+    margin-top: -50px;
+    opacity: 0;
+    z-index: -2;
+    transition: all ease 0.5s;
+    list-style: none;
+    padding-right: 20px;
+}
+    
+nav ul li:hover .submenu{
+    z-index: 2;
+    opacity: 1;
+    margin-top: 0;
+}
+    
+nav ul .submenu li{
+    margin: 0;
+    width: 100%;
+    
+} 
+
+nav ul .submenu li a{
+    padding: 15px 2px;
+    display: inline-block;
+    width: 100%;
+    
+}
+
+
+#page-main-body {
+    display: flex;
+    justify-content:space-between;
+}
+
+aside {
+    width: 17%;
+    padding: 0px;
+    margin: 0px;
+    background-color: inherit;
+    background-image: url(../images/sidebarTransparent.png);
+    background-repeat: repeat-y;
+    
+}
+
+#left-sidebar-banner {
+    order: 1;
+    left: 0;
+    z-index:-5;
+}
+
+#right-sidebar-ads {  
+    display: flex;
+    flex-direction: column;
+    order: 3;    
+    right: 0;
+    background-position: right; 
+    align-items: center;
+}
+
+#ad-container{
+    display: none;
+    position: sticky;
+    top: 10px;
+}
+
+#ad1, #ad2, #ad3{
+    width: 200px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    align-self: center;
+    max-width: 254px;
+}
+
+#close1,#close2,#close3{
+    z-index: 3; 
+    display: flex;
+    opacity: 40%;
+    width:30px;
+    height: 0px;
+    position: relative;
+    top: -15px;
+}
+
+#close1:hover ,#close2:hover, #close3:hover, #close1:active ,#close2:active, #close3:active{
+    z-index: 3;
+    opacity: 100%;
+}
+
+#close-container1, #close-container2, #close-container3{
+    font-size: 30px;
+    color: rgb(228, 207, 14);;
+}
+
+#home-page-main-section {
+    
+    order: 2;
+    width: 66%;
+    background-color: inherit;
+    padding: 20px;
+    
+}
+
+
+#homepage-house-flag {
+    color: rgb(228, 207, 14);
+}
+
+#homelist {
+    font-size: 1.2em;
+    list-style-image: url(../images/popicon20px.png);
+    
+}
+
+#homelist > li > a {
+    text-decoration: none;
+    color: skyblue;
+}
+
+#commentSection {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#nameInput {
+    order: 1;
+    width: 50%;
+    margin-bottom: 15px;
+}
+
+#commentInput {
+    order: 2;
+    width: 50%;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+#commentSubmit {
+    order: 3;
+    width: 15%;
+}
+#commentsList > h3 {
+    color: rgb(228, 207, 14);
+}
+
+#appendedComments > p {
+    max-width: 700px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#appendedComments {
+    color: rgb(228, 207, 14);
+    
+}
+
+footer {
+    font-size: 0.75em;
+    color: rgb(228, 207, 14);
+    padding: 20px;
+    border-top: 7px;
+    border-top-style: ridge;
+    border-top-color: rgb(228, 207, 14);
+}

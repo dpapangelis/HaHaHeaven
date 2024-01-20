@@ -157,6 +157,15 @@ order: 3;
     text-align: end;
 }
 
+.meet-irida a{
+    text-decoration: none;
+    color: rgb(228, 207, 14);
+}
+
+.meet-irida a:hover{
+    color:rgb(185,14,228);
+}
+
 .member-pfp {
     width: 200px;
     border-radius: 100px;

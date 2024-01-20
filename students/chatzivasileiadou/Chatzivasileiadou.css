@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css?family=DotGothic16');
+
+a,button{
+    cursor: pointer;
+}
+
+a:link {
+    color: rgb(46, 4, 50);
+}
+
+button{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    font-family: dotgothic16;
+}
+
+button:active {
+  transform: translateY(4px);
+}
+
+body{
+    font-family: dotgothic16;
+    background-color: rgb(177, 100, 232);
+    margin: 0px;
+}
+
+header{
+    background-color: rgb(164, 59, 240);
+    text-align: center;
+    padding: 50px;
+    border-bottom: 4px ridge rgb(126, 8, 137);
+}
+
+.pacman{
+    position: relative;
+    top: -90px;
+}
+
+.pacman-top{
+background-color:yellow;
+height:100px;
+width:200px;
+border-radius:100px 100px 0 0;
+animation: spin1 0.5s linear infinite;
+}
+
+.pacman-bottom{
+background-color:yellow;
+height:100px;
+width:200px;
+border-radius:0 0 100px 100px;
+animation: spin2 0.5s linear infinite;
+}
+
+.feed {
+margin-top: -185px;
+margin-left:15px;
+width: 45px;
+height: 45px;
+border-radius: 30%;
+-moz-animation: eat 1s linear 0s infinite;
+-webkit-animation: eat 1s linear 0s infinite;
+animation: eat 1s linear 0s infinite;
+}   
+
+@keyframes spin1 {
+    0%  {transform: rotate(0deg);}
+    50%{transform: rotate(-35deg);}
+
+}
+@keyframes spin2 {
+    0%  {transform: rotate(0deg);}
+50%{transform: rotate(35deg);}	
+}
+
+@-moz-keyframes spin1 {
+    0%  {transform: rotate(0deg);}
+    50%{transform: rotate(-35deg);}
+
+}
+@-moz-keyframes spin2 {
+    0%  {transform: rotate(0deg);}
+50%{transform: rotate(35deg);}	
+}
+
+@-webkit-keyframes spin1 {
+    0%  {transform: rotate(0deg);}
+    50%{transform: rotate(-35deg);}
+
+}
+@-webkit-keyframes spin2 {
+    0%  {transform: rotate(0deg);}
+50%{transform: rotate(35deg);}	
+}
+
+@keyframes eat {
+    0% { box-shadow: 
+    100px 65px 0 0 white, 
+    300px 65px 0 0 white, 
+    500px 65px 0 0 white, 
+    700px 65px 0 0 white,
+    900px 65px 0 0 white, 
+    1100px 65px 0 0 white, 
+    1300px 65px 0 0 white;}
+
+100% { box-shadow: 
+    0px 65px 0 0 white, 
+    100px 65px 0 0 white,
+    300px 65px 0 0 white, 
+    500px 65px 0 0 white, 
+    700px 65px 0 0 white, 
+    900px 65px 0 0 white, 
+    1100px 65px 0 0 white;}
+}
+
+
+@-moz-keyframes eat {
+    0% { box-shadow: 
+    100px 65px 0 0 white, 
+    300px 65px 0 0 white, 
+    500px 65px 0 0 white, 
+    700px 65px 0 0 white,
+    900px 65px 0 0 white, 
+    1100px 65px 0 0 white, 
+    1300px 65px 0 0 white;}
+
+100% { box-shadow: 
+    0px 65px 0 0 white, 
+    100px 65px 0 0 white,
+    300px 65px 0 0 white, 
+    500px 65px 0 0 white, 
+    700px 65px 0 0 white, 
+    900px 65px 0 0 white, 
+    1100px 65px 0 0 white;}
+}
+
+
+@-webkit-keyframes eat {
+    0% { box-shadow: 
+    100px 65px 0 0 white, 
+    300px 65px 0 0 white, 
+    500px 65px 0 0 white, 
+    700px 65px 0 0 white,
+    900px 65px 0 0 white, 
+    1100px 65px 0 0 white, 
+    1300px 65px 0 0 white;}
+
+100% { box-shadow: 
+    0px 65px 0 0 white, 
+    100px 65px 0 0 white,
+    300px 65px 0 0 white, 
+    500px 65px 0 0 white, 
+    700px 65px 0 0 white, 
+    900px 65px 0 0 white, 
+    1100px 65px 0 0 white;}
+}
+
+.navButton{
+    background-color: rgb(164, 59, 240);
+}
+
+.navButton:hover, .navButton:active{
+    background-color: rgb(128, 12, 211);
+}
+
+.top-button{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    text-decoration: none;
+    font-size: 70px;
+    opacity: 50%;
+}
+
+.top-button:hover{
+    opacity: 100%;
+}
+
+.top-button:active{
+    color: rgb(0, 0, 0);
+    transform: translateY(4px);
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.picture {
+    flex: 1;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#reversePic {
+    justify-content: flex-start;
+    padding-top: 10px;
+}
+
+figcaption {
+    font-size: 0.7em;
+    max-width: 250px;
+    padding-top: 10px;
+}
+
+.picture img {
+    width: auto;
+    max-width: 300px;
+    height: auto;   
+    border-radius: 30px; 
+    transform: rotate(-10deg);
+}
+
+#forest {
+    align-self: center;
+}
+
+#forest-caption{
+    padding-left: 90px;
+    transform: rotate(-10deg);
+}
+
+#cosplay {
+   align-self: center; 
+   transform: rotate(10deg);
+   
+}
+
+#cosplay-caption{
+    transform: rotate(10deg);
+    padding-right: 40px;
+}
+
+#eyeliner-caprion{
+    padding-left: 70px;
+    transform: rotate(-10deg);
+}
+
+h2{
+    text-decoration:underline;
+}
+
+.text {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    justify-self: center;
+    border-radius: 25px;
+}
+
+.textBlock {
+    max-width: 600px;
+}
+
+.hobbies {
+    flex-direction: row-reverse;
+}
+
+#reverseText {
+    padding-top: 0px;
+}
+
+
+section h2 {
+    font-size: 2em;
+} 
+
+#credits {
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 0px;
+    padding-bottom: 50px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+#navBasic {
+    font-size: 1.2em;
+    margin-bottom: 25px;
+    padding-bottom: 30px;
+    margin-top: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+#navBasic button {
+    background-color: rgb(177, 100, 232);
+}
+
+#navBasic button:hover, #navBasic button:active {
+    background-color: rgb(164, 59, 240);
+}
+
+button {
+    border-radius: 10px;
+    font-size: 0.9em;
+    
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(164, 59, 240);
+    text-align: center;
+    padding: 50px;
+    border-top: 4px ridge rgb(126, 8, 137);
+}
+
+.personal-insta-container{
+    order:1;
+}
+
+.insta{
+    max-width: 100px;
+}
+
+.info{
+    order: 2;
+}
+
+.cosplay-insta-container{
+    order: 3;
+}
+

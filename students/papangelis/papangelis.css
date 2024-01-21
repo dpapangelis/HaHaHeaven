@@ -126,6 +126,10 @@ section {
     flex-direction: row-reverse;
 }
 
+#dogcaption {
+    text-align: end;
+}
+
 #reverseText {
     padding-top: 0px;
 }

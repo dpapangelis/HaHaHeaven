@@ -152,6 +152,17 @@ order: 3;
     justify-content: space-between;
 }
 
+.meet-anna a, .meet-dimitris a{
+    transition: all ease 0.3s;
+    text-decoration: none;
+    color: rgb(228, 207, 14);
+}
+
+.meet-anna a:hover, .meet-dimitris a:hover{
+    color: rgb(185,14,228);
+    
+}
+
 .meet-irida {
     flex-direction: row-reverse;
     text-align: end;
